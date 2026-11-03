@@ -1,0 +1,9 @@
+# build outputs and large inputs
+spmv_bench
+spmv_work/
+*.bin
+*.mtx
+*.tar.gz
+spmv_results_*.zip
+__pycache__/
+.ipynb_checkpoints/

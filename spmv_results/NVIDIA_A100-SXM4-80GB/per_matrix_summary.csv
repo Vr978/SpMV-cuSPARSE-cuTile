@@ -1,0 +1,13 @@
+matrix,rows,nnz,mean_len,max_len,source,cusparse_us,cusparse_alg,scalar_us,adaptive_us,best_kernel,best_us,best_vs_cusparse,adaptive_vs_cusparse,adaptive_vs_scalar
+powerlaw,1000000,8352263,8.352,48795,synthetic,135.232,default,4325.344,233.728,adaptive,233.728,0.579,0.579,18.506
+webbase-1M,1000005,3105536,3.106,4700,SuiteSparse,52.448,default,737.536,86.144,adaptive,86.144,0.609,0.609,8.562
+stencil27_3d,512000,13481272,26.331,27,synthetic,101.472,default,139.648,146.912,vector2,98.944,1.026,0.691,0.951
+cant,62451,4007383,64.168,78,SuiteSparse,44.416,default,69.184,60.896,vector8,42.72,1.04,0.729,1.136
+pdb1HYS,36417,4344765,119.306,204,SuiteSparse,44.928,default,84.32,52.864,vector16,42.816,1.049,0.85,1.595
+consph,83334,6010480,72.125,81,SuiteSparse,55.296,default,95.36,82.432,vector8,51.168,1.081,0.671,1.157
+random_uniform,1000000,15999878,16.0,16,synthetic,221.248,default,248.384,215.84,vector4,197.312,1.121,1.025,1.151
+rma10,46835,2374001,50.689,145,SuiteSparse,36.224,default,50.912,56.128,vector8,30.144,1.202,0.645,0.907
+laplace2d,1048576,5238784,4.996,5,synthetic,66.08,default,52.256,83.52,scalar,52.256,1.265,0.791,0.626
+scircuit,170998,958936,5.608,353,SuiteSparse,31.872,default,54.816,41.44,vector8,24.384,1.307,0.769,1.323
+mac_econ_fwd500,206500,1273389,6.167,44,SuiteSparse,33.664,default,24.576,44.96,scalar,24.576,1.37,0.749,0.547
+cop20k_A,121192,2624331,21.654,81,SuiteSparse,74.912,default,55.296,60.032,vector8,32.256,2.322,1.248,0.921

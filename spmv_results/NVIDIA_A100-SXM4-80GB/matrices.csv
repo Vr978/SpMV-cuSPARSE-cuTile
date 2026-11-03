@@ -1,0 +1,13 @@
+matrix,rows,cols,nnz,mean_len,max_len,std_len,empty_rows,description,source
+laplace2d,1048576,1048576,5238784,4.996,5,0.062,0,"2D Poisson, 5-point",synthetic
+stencil27_3d,512000,512000,13481272,26.331,27,2.397,0,3D 27-point stencil,synthetic
+random_uniform,1000000,1000000,15999878,16.0,16,0.011,0,"random, 16/row",synthetic
+powerlaw,1000000,1000000,8352263,8.352,48795,94.252,10103,synthetic power law,synthetic
+cant,62451,62451,4007383,64.168,78,14.056,0,FEM cantilever,SuiteSparse
+pdb1HYS,36417,36417,4344765,119.306,204,31.86,0,"protein, dense rows",SuiteSparse
+rma10,46835,46835,2374001,50.689,145,27.781,0,3D CFD,SuiteSparse
+cop20k_A,121192,121192,2624331,21.654,81,13.793,21349,FEM accelerator,SuiteSparse
+consph,83334,83334,6010480,72.125,81,19.08,0,FEM spheres,SuiteSparse
+mac_econ_fwd500,206500,206500,1273389,6.167,44,4.436,0,"economics, irregular",SuiteSparse
+scircuit,170998,170998,958936,5.608,353,4.392,0,"circuit, irregular",SuiteSparse
+webbase-1M,1000005,1000005,3105536,3.106,4700,25.345,0,"web graph, power law",SuiteSparse
